@@ -33,6 +33,22 @@
  ul li.Home-page-item{
     --clr:#2483ff;
  }
+
+ul li.Profile-page-item{
+    --clr:#d7ff24;
+}
+ul li.Likes-page-item{
+    --clr:#ff2424;
+}
+ul li.Settings-page-item{
+    --clr:#2bff24;
+}
+ul li.Search-page-item{
+    --clr:#cc24ff;
+}
+
+
+
  ul li::before {
     content: '';
     position: absolute;
