@@ -104,3 +104,26 @@ ul li a span {
   filter: drop-shadow(0 0 20px var(--clr)) drop-shadow(0 0 40px var(--clr))
     drop-shadow(0 0 60px var(--clr));
 }
+
+.MDJAminDiv {
+  z-index: 4444;
+  position: fixed;
+  bottom: 5%;
+  left: 2%;
+}
+
+.MDJAmin {
+  text-decoration: none;
+  border-bottom: 1px dashed var(--clr);
+  border-top: 1px dashed var(--clr);
+  padding: 4px 0;
+  color: rgba(204, 204, 204, 0.414);
+  font-family: monospace;
+  font-style: italic;
+  font-size: 1.3em;
+  transition: all 0.5s;
+}
+
+.MDJAmin:hover {
+  color: var(--clr);
+}
